@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Story Apepe</string>
+
+    <!--media-->
+    <string name="no_added">Mohon Tambahkan File</string>
+    <string name="no_input">Mohon Tambahkan Deskripsi</string>
+    <string name="add_new_story">Tambah Cerita Baru</string>
+    <string name="upload_complete">Upload Berhasil</string>
+    <string name="upload_fail">Upload Gagal</string>
+    <string name="gallery">Galeri</string>
+    <string name="camera">Kamera</string>
+    <string name="image">Gambar</string>
+    <string name="description">Deskripsi</string>
+    <string name="upload">Upload</string>
+    <string name="image_upload">image_upload</string>
+    <string name="take_photo">Ambil Foto</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="add_story">add Story</string>
+    <string name="preview_image">Image Preview</string>
+
+    <!--Credential-->
+    <string name="register">Register</string>
+    <string name="register_success">Register Success, Please Login</string>
+    <string name="register_failed">Register Failed, check your data again</string>
+    <string name="login">Login</string>
+    <string name="login_success">Login Succes, Enjoy the Story!</string>
+    <string name="login_failed">Login Failed, Check Your Credential Again</string>
+    <string name="log_out_success">Log Out Success</string>
+    <string name="invalid_name">Nama tidak boleh kosong</string>
+    <string name="invalid_email">email tidak valid</string>
+    <string name="invalid_password">Password tidak kurang dari 6 Karakter</string>
+    <string name="name">Name</string>
+    <string name="must_filled">Harus Disertakan</string>
+    <string name="email">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="belum_punya_akun">belum punya akun?</string>
+    <string name="udah_punya_akun">udah punya akun?</string>
+
+    <!--Other-->
+    <string name="say">StoryApp Said</string>
+    <string name="ok">OK</string>
+    <string name="fill_all">Fill Email and Password Correctly</string>
+    <string name="need_permission">Butuh Perizinan</string>
+    <string name="image_view">image view</string>
+    <string name="nothing">Let\'s make your story</string>
+    <string name="selamat_datang">Selamat Datang!</string>
+    <string name="di_story_app">Di Story App</string>
+    <string name="selamat_datamg_photo">selamat datang</string>
+    <string name="open_list_story">Open List Story</string>
+    <string name="logout_now">Logout now</string>
+    <string name="logo_story_app">logo story app</string>
+    <string name="storyapp">StoryApp</string>
+    <string name="designby">DesignBy</string>
+    <string name="zaskhasasmita">ZASKHASASMITA</string>
+    <string name="maps">maps</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+
+</resources>

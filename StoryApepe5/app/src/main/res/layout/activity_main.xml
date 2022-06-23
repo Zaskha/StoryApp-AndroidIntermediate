@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglogin"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/selamat_datang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/bold"
+        android:text="@string/selamat_datang"
+        android:textColor="@color/bright_gray"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/di_story_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/regular"
+        android:text="@string/di_story_app"
+        android:textColor="@color/bright_gray"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/selamat_datang"
+        app:layout_constraintTop_toBottomOf="@+id/selamat_datang" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/selamat_datamg_photo"
+        android:src="@drawable/multitask"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/di_story_app" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="0.4"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_to_list_story"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/bold"
+        android:text="@string/open_list_story"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/di_story_app"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn_log_out"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/maroon_x11"
+        android:fontFamily="@font/bold"
+        android:padding="5dp"
+        android:text="@string/logout_now"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_to_list_story"
+        app:layout_constraintTop_toBottomOf="@+id/btn_to_list_story" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
